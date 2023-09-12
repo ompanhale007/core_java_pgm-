@@ -35,6 +35,10 @@ public class lab010_1
         {
             System.out.println("***InValid Score Plz Score between 1 to 100***");
         }
-        System.out.println("Your Grade IS-: "+grade);
+
+        if(grade != null && grade != ""){
+            System.out.println("Your Grade IS-: "+grade);
+        }
+
     }
 }
